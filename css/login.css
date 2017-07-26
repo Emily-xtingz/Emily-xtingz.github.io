@@ -1,0 +1,109 @@
+/*内容 B*/
+
+.main{
+	height: 800px;
+}
+.main .main_left{
+	margin-top: 100px;
+}
+.main .main_right{
+	margin-top: 100px;
+	width: 429px;
+	height: 642px;
+	background-color: #ffffff;
+	padding: 0 15px;
+}
+.main .main_right h2{
+	font-size: 50px;
+	height: 100px;
+	line-height: 100px;
+	padding-left: 25px;
+}
+.main .main_right .UName_Paw input{
+	height:50px; 
+	width: 399px;
+	border: 1px solid #D8D8D8;
+	font-size: 18px;
+	/*其实应该把图放到精灵图中，然后用backgrond_positin来设置图片位置*/
+}
+.main .main_right .UName_Paw .txt{
+	margin-top: 10px;
+	/*margin-bottom: 30px;*/
+
+	/*background: url(../images/账户登录图.png);*/
+}
+.main .main_right .UName_Paw .btn{
+	margin-top: 30px;
+
+	/*background: url(../images/密码输入图.png);*/
+}
+.main .main_right .rem_password{
+	height:100px ;
+	font-size:18px;
+	line-height: 100px;
+}
+.main .main_right .rem_password input{
+	width: 25px;
+	height: 25px;
+	vertical-align: middle;/*重要！！！！！中签居中！！*/
+}
+/*.main .main_right .login{
+	font-size: 25px;
+	background-color: red;
+	color: #fff;
+
+}*/
+.main .main_right .loginBtn{
+	width:400px ;
+	height:60px;
+	font-size: 25px;
+	color: #fff;
+	background-color: red;
+}
+.main .main_right .other{
+	margin-top: 70px;
+	height: 100px;
+	font-size: 20px;
+}
+.main .main_right .login_type li{
+	font-size: 15px;
+	/*background: url(../images/QQ.png);*/
+	height: 17px;
+	line-height: 17px;
+	padding-left: 24px;
+}
+.main .main_right .login_type a{
+	color: #666666;
+
+}
+.main .main_right .login_type .login_type_center{
+	margin-left: 120px;
+	/*使中间部分居中*/
+}
+
+/*内容 E*/
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

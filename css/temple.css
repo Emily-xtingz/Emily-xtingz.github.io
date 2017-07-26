@@ -1,0 +1,210 @@
+.center{
+	width: 1000px;
+	margin: 0 auto;
+}
+.fz14{
+	font-size: 14px; 
+}
+.cRed{
+	color: red;
+}
+ /* 顶部 B*/
+ .top{
+ 	height: 47px;
+ 	background-color: #E9E8E8; 
+ }
+ .top .top_c{
+ 	height: 47px;
+ 	line-height: 40px;
+
+ }
+ /* 顶部 E */
+
+/*logo B*/
+.logo{
+	height: 99px;
+	background-color: #C70202;
+}
+.logo .l_c{
+	height: 99px;
+}
+.logo .l_left h1 a{
+	display: inline-block;
+	width: 144px;
+	height:88px;
+	margin-top: 5px;/*我自己添加的*/
+	background: url(../images/cat1.png);
+	/*啥作用？？*/
+	text-indent: -9999em;
+}
+.logo .l_center{
+	width: 296px;
+	height:28px ;
+	background-color: #ffffff;
+	padding: 1px;
+	margin-top: 34px;
+	margin-left: 70px;
+	border-radius: 5px;/*设置圆角*/
+}
+.logo  .l_center .txt{
+	width:236px ;
+	height: 28px;
+	outline: none;
+}
+.logo  .l_center .btn{
+	width: 58px;
+	height: 28px;
+	background-color: #C70202;
+	color: #ffffff; 
+	border-radius: 0px 5px 5px 0px;
+}
+.logo .l_right{
+	margin-top: 35px;
+}
+.logo  .l_right li{ /*li前面没有.*/
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 20px;
+}
+.logo  .l_right a{
+	color: #ffffff;
+}
+.logo  .l_right input{
+	width: 56;
+	height: 30;
+	font-size: 16px;
+}
+.logo  .l_right li b{
+	width: 40px;
+	height: 41px;
+	background: url(../images/微信.png);/*为什么不显示？？？*/
+	vertical-align: middle;
+}
+
+/*logo E*/
+
+/*内容 B*/
+/*内容 E*/
+
+/*底部 B*/
+.foot{
+	height: 273px;
+	padding: 10px;
+	background-color: #2F2F2F;
+}
+.foot .f_border{
+	height: 273px;
+	border: 1px solid #FFD283;
+	position: relative;/* 父相子绝*/
+}
+.foot .f_border b{
+	position: absolute;/*父相子绝*/
+	width: 17px;
+	height: 17px;
+	background-color: red;
+	background: url(../images/logo.png);
+}
+.foot .f_border .b1{
+	top: -1px;
+	left: -1px;
+	background-position: right bottom;
+}
+.foot .f_border .b2{
+	top: -1px;
+	right: -1px;
+	background-position: left bottom;
+}
+.foot .f_border .b3{
+	bottom:-1px;
+	right: -1px;
+	background-position: left top;
+}
+.foot .f_border .b4{
+	bottom:-1px;
+	left: -1px;
+	background-position: right top;
+}
+.foot .center_left{
+	margin-top: 55px;
+	color: #ccc;
+}
+.foot .center_left li{
+	height: 33px;
+	line-height: 33px;/*使文字居中*/
+}
+.foot .center_right{
+	margin-top: 34px;
+}
+.foot .center_right li{
+	float: left;
+	width: 105px;
+	height:100px ;
+	margin-left: 20px;
+	background-color: blue;
+
+}
+.foot .center_right li a{
+	display: inline-block;
+	color: #666666;
+	text-align: center;
+}
+.foot .center_right li s{
+	display: inline-block;
+	margin-bottom: 10px;
+	width: 100px;
+	height: 100px;
+	background: url(../images/Weibo.png);/*怎么把图片分开？*/
+}
+
+
+
+
+
+/*底部 E*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

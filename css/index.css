@@ -1,0 +1,183 @@
+.cRed{
+	/*text-decoration: underline;  不能用这个！因为字体跟着变色*/
+	border-bottom: 1px solid red;
+}
+.h2Title{
+	height: 76px;
+	font: normal 700 24px/76px "微软雅黑";
+	text-align: center;
+	/*给more定位*/
+	position: relative;
+}
+.more{    /*更多菜单部分*/
+	font-size: 12px;
+	color: #666;
+	position: absolute;
+	/*设置位置，定位*/
+	top: 0px;
+	right: 0px;
+	
+}
+.p1{
+	height: 36px;
+	font :normal normal 18px/36px "微软雅黑";
+	margin-left: 10px;
+}
+.p2{
+	font-size: 15px;
+	font-family: "微软雅黑"；
+	/*为啥不起作用*/
+	/*padding-left:10px;*/
+
+}
+/*首页导航 B*/
+
+.nav{
+	height: 77px;
+	background-color: #fff;
+}
+.nav .nav_center{
+	height: 77px;	
+}
+.nav .nav_center li{
+	float: left;
+	/*color: #666;     不在这里设置颜色，以防以后添加li之后造成错误*/
+	height: 77px;
+	line-height: 77px;
+	/*vertical-align: middle;*/
+	margin-left: 60px;
+	font-size: 18px;
+}
+.nav .nav_center li a {
+	color: #666；
+}
+.nav .nav_center li a:hover{/*鼠标点到时颜色变红*/
+	color: red;
+}
+/*首页导航 E*/
+/*首页banner B*/
+.banner{
+	/*这是相对arrow里的a标签*/
+	position: relative;
+
+}
+.banner ul{
+	width: 1320px;
+	margin: 0 auto;
+
+}
+.banner ul li{
+	width: 330px;
+	float: left;
+	/*background-color: red;*/
+	position: relative;
+}
+.banner ul li img{
+	vertical-align: middle;
+}
+.banner .des{
+	width: 330px;
+	height: 63px;
+	background-color: rgba(255,255,255,.6 );
+	position: absolute;
+	/*不懂？？*/
+	bottom: 0px;
+	left: 0px;
+}
+.banner .arrow a{
+	display: inline-block;
+	width: 145px;
+	height: 77px;
+	/*background-color: red;*/
+	/*因为我没有透明图片*/
+	/*background:url(../images/arrow.png) no-repeat;*/
+	position: absolute;
+	top:160px;
+}
+.banner .arrow .arrow_left{
+	left: 190px;
+}
+.banner .arrow .arrow_right{
+	right: 190px;
+}
+/*首页banner E*/
+
+
+/*首页搜索  B*/
+.search{
+	height: 100px;
+	background-color: #3F3A32;
+	overflow: hidden;
+}
+.search .search_center{
+	width: 728px;
+	height: 77px;
+	background-color: #fff;
+	margin: 0px auto;
+	margin-top: 12px;
+}
+.search .search_center .txt{
+	width: 516px;
+	height: 77px;
+	background-color: #fff;
+	font: normal normal 18px "微软雅黑";
+	padding-left: 40px;
+	outline: none;
+}
+.search .search_center .btn{
+	width: 171px;
+	height: 77px;
+	background-color: red;
+	font: normal normal 18px "微软雅黑";
+	color: #fff;
+	border: none;
+	outline: none;
+}
+
+/*首页搜索  E*/
+/*首页menu  B*/
+.menu{
+	/*重要！！！！出掉多出来的部分*/
+	overflow: hidden;
+}
+.menu .img{
+	min-width: 1010px;
+}
+.menu .img li{
+	width: 334px;
+	/*background-color:red;*/
+	float: left;
+}
+.menu .img img{
+	vertical-align: middle;/*去掉图片下多余空白*/
+}
+.menu .img .word{
+	width: 334px;
+	height: 57px;
+	background-color: #fff;
+}
+
+
+/*首页menu  E*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

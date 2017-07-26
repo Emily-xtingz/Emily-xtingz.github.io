@@ -1,0 +1,49 @@
+ /* 存放css初始化代码*/
+ html,body,ul,li,dl,dd,dt,p,h1,h2,h3,form,
+ /*去掉margin和padding*/
+ img{
+ 	margin: 0;
+ 	padding: 0;
+ }
+ /*去掉图片边框*/
+ img{
+ 	border: none;
+ }
+ ul{
+ 	list-style: none;
+ }
+ /*去掉input标签默认的pandding-top和padding-bottom和border*/
+ input{
+ 	padding-top: 0;
+ 	padding-bottom: 0;
+ 	border: none;
+ }
+ /*去掉a标签的下划线*/
+ a{
+ 	text-decoration: none;
+ }
+ /*去设置统一字体大小颜色背景*/
+ body{
+ 	font: normal normal normal 12px "宋体";
+ 	color: #4c4c4c;
+ 	background-color: #fae8c8;
+ }
+ /*左右浮动*/
+ .fl{
+ 	float: left;
+ }
+ .fr{
+ 	float: right;
+ }
+ /*清楚浮动*/
+.clearfix:after{
+	content: "";
+	height: 0;
+	line-height: 0;
+	display: block;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix{
+	zoom: 1;
+}
