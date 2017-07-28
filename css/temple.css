@@ -2,8 +2,8 @@
 	width: 1000px;
 	margin: 0 auto;
 }
-.fz14{
-	font-size: 14px; 
+.fz25{
+	font-size: 25px; 
 }
 .cRed{
 	color: red;
@@ -132,6 +132,7 @@
 .foot .center_left li{
 	height: 33px;
 	line-height: 33px;/*使文字居中*/
+	font-size: 20px
 }
 .foot .center_right{
 	margin-top: 34px;
@@ -154,7 +155,7 @@
 	margin-bottom: 10px;
 	width: 100px;
 	height: 100px;
-	background: url(../images/Weibo.png);/*怎么把图片分开？*/
+	background: url(../images/Weibo.png) no-repeat;/*怎么把图片分开？*/
 }
 
 

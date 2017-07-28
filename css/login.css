@@ -23,19 +23,20 @@
 	height:50px; 
 	width: 399px;
 	border: 1px solid #D8D8D8;
-	font-size: 18px;
+	font-size: 15px;
+	padding-left: 40px;
 	/*其实应该把图放到精灵图中，然后用backgrond_positin来设置图片位置*/
 }
 .main .main_right .UName_Paw .txt{
 	margin-top: 10px;
 	/*margin-bottom: 30px;*/
 
-	/*background: url(../images/账户登录图.png);*/
+	background: url(../images/账户登录图.png) no-repeat;
 }
 .main .main_right .UName_Paw .btn{
 	margin-top: 30px;
 
-	/*background: url(../images/密码输入图.png);*/
+	background: url(../images/密码输入图.png) no-repeat;
 }
 .main .main_right .rem_password{
 	height:100px ;
